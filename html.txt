@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Mart</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome To Laundry Mart!!</h1>
+        <label for=""><a href="#survices">our services</a></label>
+        <label for=""><a href="#productcost"> price chart</a></label>
+        <label for=""><a href="#booknow">  book now</a></label>
+
+        <hr>
+    </header>
+    <main>
+        <section id="aboutus">
+            <h2>About us:</h2>
+            <p>Laundry Mart, also known as Laundry Mart, is a professional laundry and garment-care service designed
+                to make everyday laundry convenient and hassle-free. It provides services such as washing, drying,
+                ironing, dry cleaning, and stain removal for different types of clothes. The service focuses on
+                maintaining cleanliness, quality, and timely delivery. Customers can easily give their clothes for
+                cleaning and receive them fresh and properly packed. Laundry Mart aims to save customers time while
+                providing affordable and reliable laundry solutions. It is especially useful for students, working
+                professionals, families, and busy individuals.
+            </p>
+        </section>
+        <hr>
+        <section id="image">
+            <img align="right" src="./image/laundry image.jpg" alt="laundry image" height="200">
+        </section>
+        <section id="survices">
+            <h2>Our Survices:</h2>
+            <ul>
+                <strong>
+                    <li>washing and Drying</li>
+                    <li>Ironing and Folding</li>
+                    <li>Dry cleaning</li>
+                    <li>Stain removal</li>
+                    <li>Express Services</li>
+                    <li>Special Garment Care</li>
+                    <li>And more</li>
+                </strong>
+            </ul>
+            <hr>
+        </section>
+        <section id="productcost">
+            <table border="">
+                <caption><h2><strong>Our Price Chart</strong></h2></caption>
+                <thead>
+                    <th>services</th>
+                    <th>price</th>
+
+                </thead>
+                <tbody>
+                   <tr>
+                    <td>washing and Drying</td>
+                    <td>100/-</td>
+                   </tr>
+                   <tr>
+                    <td>Ironing and Folding</td>
+                    <td>50/-</td>
+                   </tr>
+                   <tr>
+                    <td>Dry cleaning</td>
+                    <td>200/-</td>
+                   </tr>
+                   <tr>
+                    <td>Stain removal</td>
+                    <td>100/-</td>
+                   </tr>
+                   <tr>
+                    <td>Express Services</td>
+                    <td>300/-</td>
+                   </tr>
+                   <tr>
+                    <td>Special Garment Care</td>
+                    <td>200/-</td>
+                   </tr>
+                </tbody>
+                   
+            </table>
+            <hr>
+        </section>
+        <section id="booknow">
+              <h2>Book Now!</h2>
+              <label for="">NAME: </label>
+              <input type="text" minlength="2" placeholder="Enter Your Name" required>
+              <label for="">EMAIL: </label>
+              <input type="email">
+              <label for="">PHONE NO.: </label>
+              <input type="number" minlength="10" placeholder="Enter Your Phone no.">
+              <hr>
+        </section>
+    </main>
+    <footer>
+        <h3>contact with us:</h3>
+        <p>email: <a href="mailto:laundrymart100@gmail.com">laundrymart100@gmail.com</a></p>
+        <p>phone no.: <a href="tel9330162580">9330162580</a></p>
+        <h1>THANK YOU FOR VISITING OUT WEBSITE</h1>
+    </footer>
+
+</body>
+
+</html>
